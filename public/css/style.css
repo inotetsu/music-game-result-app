@@ -247,7 +247,7 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width:396px){
+@media screen and (max-width:960px){
 
     .inViewSongs {
         width: 100%;
@@ -323,10 +323,7 @@ body {
     .songInfo {
         width: 40%;
     }
-
-    .width10 {
-        width: 10% !important;
-    }
+    
 }
 
 @media screen and (max-width:590px) {
