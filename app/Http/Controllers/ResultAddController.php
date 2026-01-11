@@ -57,6 +57,10 @@ class ResultAddController extends Controller
                 $results = result::where('song_id',$id)->where('play_count', 0)->where('donda_full_combo',1)->latest('updated_at')->paginate(10);
             }
 
+            if($order == 9){
+                $results = result::where('song_id',$id)->whereNotnull('comment')->paginate(10);
+            }
+
         }
 
         return view('detail',['song' => $song , 'results' => $results , 'play_count' => $play_count,

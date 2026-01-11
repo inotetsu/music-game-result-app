@@ -190,6 +190,7 @@
                         <option value="6" {{ $order == 6 ? 'selected' :  '' }}>連打数順</option>
                         <option value="7" {{ $order == 7 ? 'selected' :  '' }}>フルコンのみ</option>
                         <option value="8" {{ $order == 8 ? 'selected' :  '' }}>全良のみ</option>
+                        <option value="9" {{ $order == 9 ? 'selected' :  '' }}>コメントありのみ</option>
                     </select>
                 </p>
                 <p>
